@@ -1,10 +1,10 @@
 package Homework6;
 
 public class WorkerPerMonth implements Salary {
-	 private static int monthlSalary;
+	 private final int monthlSalary;
 
 	    public WorkerPerMonth(int monthlySalary) {
-	        this.monthlSalary = monthlSalary;
+	        this.monthlSalary = monthlySalary;
 	    }
 
 	    @Override

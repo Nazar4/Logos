@@ -1,7 +1,7 @@
 package Homework6;
 
 public class WorkerPerHour implements Salary{
-	private static int SalaryForHour;
+	private final int SalaryForHour;
 
     public WorkerPerHour(int salaryForHour) {
         SalaryForHour = salaryForHour;
