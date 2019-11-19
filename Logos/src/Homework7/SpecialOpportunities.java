@@ -2,15 +2,9 @@ package Homework7;
 
 public interface SpecialOpportunities {
 
-    default void turboNitro(){
-        System.out.println("turboNitro");
-   }
+   void turboNitro();
 
-   default void technologyStealth(){
-       System.out.println("technologyStealth");
-   }
+   void technologyStealth();
 
-   default void nuclearHit(){
-       System.out.println("nuclearHit");
-   }
+   void nuclearHit();
 }

@@ -1,10 +1,7 @@
 package Homework7;
 
-import java.util.Random;
-
 public class ManagementOfPlane extends Plane{
 
-        Random random = new Random();
         double a = Math.random();
         double l = Math.random();
         double n = Math.random();
