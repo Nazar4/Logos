@@ -1,5 +1,7 @@
 package Homework9;
 
-public class MyException {
+public class MyException extends Exception{
+	
+	public MyException(){}
 
 }
